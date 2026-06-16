@@ -126,3 +126,136 @@ span{
     content: "Web Developer";
     color: #1A1A1A; 
 }
+
+section .content{
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.introduction .introduction-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+section .title span{
+    color: #1A1A1A;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.introduction .introduction-details .left{
+    width: 45%;
+}
+
+.introduction .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.introduction-details .right{
+    width: 55%;
+}
+
+section .topic{
+    color: #1A1A1A;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.introduction-details .right p{
+    text-align: justify;
+    color: #1A1A1A;
+}
+
+.career .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.career .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 8px 16px -4px rgba(148, 163, 184, 0.25), 0 0 1px 0 rgba(148, 163, 184, 0.3);
+    cursor: default;
+    color: #1A1A1A;
+    transition: all 0.4 ease;
+}
+
+.career .boxes .box:hover{
+    background-color: #1A1A1A;
+    color: #2F4F4F;
+}
+
+.services .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background-color: #1A1A1A;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color:#2F4F4F;
+    margin: 0 auto 10px auto;
+    transition: all 0.4 ease;
+}
+
+
+
+
+/* .skills{
+    
+} */
+
+
+.skills .content{
+    padding: 40px 0;
+}
+
+.skills .skills-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-details .text{
+    width: 50%;
+}
+
+.skills-details p{
+    color: #1A1A1A;
+    text-align: justify;
+}
+
+.skills-details .boxes{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-details .box{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0;
+}
+
+.skills-details .boxes .topic{
+    font-size: 20px;
+    color: #1A1A1A;
+}
