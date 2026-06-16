@@ -198,12 +198,16 @@ section .topic{
     transition: all 0.4 ease;
 }
 
-.career .boxes .box:hover{
-    background-color: #1A1A1A;
-    color: #2F4F4F;
+.career .boxes .box p{
+    text-align: justify;
 }
 
-.services .boxes .box .icon{
+.career .boxes .box:hover{
+    background-color: #1A1A1A;
+    color: aliceblue;
+}
+
+.career .boxes .box .icon{
     height: 50px;
     width: 50px;
     background-color: #1A1A1A;
@@ -211,7 +215,7 @@ section .topic{
     text-align: center;
     line-height: 50px;
     font-size: 18px;
-    color:#2F4F4F;
+    color: aliceblue;
     margin: 0 auto 10px auto;
     transition: all 0.4 ease;
 }
