@@ -263,3 +263,13 @@ section .topic{
     font-size: 20px;
     color: #1A1A1A;
 }
+
+.contact .content{
+    margin: auto;
+    padding: 30px 0;
+}
+
+.contact .text{
+    margin: auto;
+}
+
