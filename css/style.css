@@ -296,3 +296,60 @@ section .topic{
     margin: auto;
 }
 
+
+
+.projects .img-right img{
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+}
+
+.projects .img-left img{
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+}
+
+.projects .projects-details{
+    width: 40%;
+    display: flex;
+    flex-wrap: calc(100 / 2 20px);
+    justify-content: space-between;
+}
+
+.projects .projects-details{
+    padding: 40px 0;
+}
+
+.projects .projects-details p{
+    color: #1A1A1A;
+    text-align: justify;
+}
+
+.projects .projects-details .img-left{
+    margin-left: 220px;
+}
+
+/* .projects .projects-details .img-right{
+    margin-right: 0px;
+} */
+
+.projects .projects-details .imgl{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #1A1A1A;
+}
+
+.projects .projects-details .imgr{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #1A1A1A;
+}
+
+
+
+
+
+
