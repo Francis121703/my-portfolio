@@ -220,13 +220,9 @@ section .topic{
     transition: all 0.4 ease;
 }
 
-
-
-
-/* .skills{
-    
-} */
-
+.skills{
+    background: aliceblue;
+}
 
 .skills .content{
     padding: 40px 0;
@@ -247,8 +243,27 @@ section .topic{
     text-align: justify;
 }
 
+.skills .skills-details .experience{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.skills-details .experience .num{
+    color: #1A1A1A;
+    font-size: 80px;
+}
+
+.skills-details .experience .exp{
+    color: #1A1A1A;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 6px;
+}
+
 .skills-details .boxes{
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -262,7 +277,15 @@ section .topic{
 .skills-details .boxes .topic{
     font-size: 20px;
     color: #1A1A1A;
+
 }
+
+.skills-details .boxes .per{
+    font-size: 60px;
+    color: #1A1A1A;
+
+}
+
 
 .contact .content{
     margin: auto;
