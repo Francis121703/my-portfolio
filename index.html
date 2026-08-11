@@ -3,32 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/png" href="assets/images/first-page-images/ChatGPT Image Jul 29, 2026, 11_13_19 PM.png">
+    <title>Dev Okikss</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Dev Okiks</a>
-
+        <!-- navbar section -->
         <nav>
-            <a href="" class="active">Home</a>
-            <a href="views/introduction.html">Introduction</a>
-            <a href="views/career.html">Career</a>
-            <a href="views/skills.html">Skills</a>
-            <a href="views/skills.html">Projects</a>
-            <a href="views/contact.html">Contact</a>
+            <!-- logo section -->
+            <a href="index.html" class="logo">DEV OKIKSS</a>
+
+            <!-- Main navigation -->
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills &#9662;</a></li> 
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                
+                <button>
+                <a download="" href="#">Download CV</a>
+                </button>
+            </ul>
         </nav>
     </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="assets/images/profile.png" alt="">
-        </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>Francis Maranan</span></h1>
-            <h3 class="typing-text">I'm a <span> </span></h3>
-            <p>Hi, I'm Francis, a BSIT student and aspiring web developer. I enjoy creating websites, learning modern web technologies, and developing projects that solve real-world problems while continuously improving my programming skills.</p>
-        </div>
-    </section>
+
+    <main>
+
+        <!-- Profile Section -->
+        <section id="profile">
+            <div class="left-details">
+                <p>Hi, I'm</p>
+                <h1>Francis Maranan</h1>
+                <div class="wrapper">
+                    <div class="static-text">I'm a</div>
+                    <ul class="dynamic-texts">
+                        <li><span>Web Developer</span></li>
+                        <li><span>UI/UX Designer</span></li>
+                    </ul>
+                </div>
+                <p aboutme-details>
+                    I build responsive and user-focused digital experiences while developing my skills toward full-stack development.
+                </p>
+
+                <div class="viewworl-cv">
+                    <button class="my-work"><a href="">View My Work</a></button>
+                    <button class="cv"><a download="" href="">Download CV</a></button>
+                </div>
+            </div>
+            
+            <div class="right-image">
+                <img src="/assets/images/first-page-images/Professional profile.png" alt="profile picture">
+            </div>
+        </section>
+
+
+        <!-- about section -->
+        <section id="about">
+            <div class="aboutme-left">
+                <p>About Me</p>
+                <h1>Curious. Driven. Creative.</h1>
+                <p class="aboutme-details">
+                    I became interested in development because I'm curious about how things works, how they're built, and how technology can be used to create new things, I enjoy turning ideas into real, useful solutions that make an impact.
+                </p>
+
+                <p class="aboutme-details">
+                    I'm constantly learning and improving to become a full-stack developer with strong front-end and UI/UX expertise.
+                </p>
+            </div>
+
+            <img src="assets/images/first-page-images/aboutme-image.png" alt="">
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <div class="skills-card">>
+                <h1><i class="bi bi-code-square"></i>Front-End</h1>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+
+
+            <div class="skills-card">
+                <h1><i class="bi bi-palette"></i>Design</h1>
+                <ul>
+                    <li>UI/UX Design</li>
+                    <li>Layout Design</li>
+                    <li>User-focused interfaces</li>
+                </ul>
+            </div>
+
+            <div class="skills-card">
+                <h1><i class="bi bi-wrench-adjustable"></i>Tools</h1>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+
+            <div class="skills-card">
+                <h1><i class="bi bi-book-half"></i>Currently Learning</h1>
+                <ul>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- featured section -->
+        <section id="featured-projects">
+            <!-- tech world magazine -->
+            <div class="feature-container">
+                <img src="assets/images/first-page-images/featured-image-1.png" alt="TechWorldMagazine">
+                <div class="project-details">
+                    <h1>Tech World Magazine</h1>
+                    <p>A modern technology magazine website designed to present tech news, articles, and digital content through a clean and user-friendly interface.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- gaming profile -->
+            <div class="feature-container">
+                <img src="assets/images/first-page-images/featured-image-2.png" alt="Gaming Profile">
+                <div class="project-details">
+                    <h1>Gaming Profile</h1>
+                    <p>A gaming-focused profile website designed to showcase a player's identity and interest through a visually engaging interface.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>UI/UX</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- KULTR business website -->
+            <div class="feature-container">
+                <img src="assets/images/first-page-images/featured-image-3.png" alt="KULTR">
+                <div class="project-details">
+                    <h1>Bussiness Website</h1>
+                    <p>A web platform showcases local culture and traditions.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>UI/UX</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+            <!-- learning journey section -->
+        <section id="learning-journey">
+            <!-- html -->
+            <div class="tech-container">
+                <i class="bi bi-code-slash"></i>
+                <p>HTML</p>
+            </div>
+            <!-- css -->
+            <div class="tech-container">
+                <i class="bi bi-css"></i>
+                <p>CSS</p>
+            </div>
+            <!-- responsive -->
+            <div class="tech-container">
+                <i class="bi bi-aspect-ratio"></i>
+                <p>Responsive Design</p>
+            </div>
+            <!-- ui/ux design -->
+            <div class="tech-container">
+                <i class="bi bi-suit-heart-fill"></i>   
+                <p>UI/UX Design</p>
+            </div>
+
+            <!-- javascript -->
+            <div class="tech-container">
+                <i class="bi bi-javascript"></i>
+                <p>JavaScript</p>
+            </div>
+            <!-- Advanced Front-End -->
+            <div class="tech-container">
+                <i class="bi bi-display"></i>
+                <p>Advanced Front-End</p>
+            </div>
+            <!-- Back-End -->
+            <div class="tech-container">
+                <i class="bi bi-hdd-stack"></i>
+                <p>Back-End</p>
+            </div>
+            <!-- full stack -->
+            <div class="tech-container">
+                <i class="bi bi-rocket-takeoff"></i>
+                <p>Full Stack Developer</p>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="lets-connect">
+            <p>I'm open to professional opportunities, collaborations, and projects that allow me to learn and grow.</p>
+            <div>
+                <h1>Let's Connect</h1>
+                <div class="social-media">
+                    <button><a href=""><i class="bi bi-envelope"></i>Email</a></button>
+                    <button><a href=""><i class="bi bi-github"></i>GitHub</a></button>
+                    <button><a href=""><i class="bi bi-facebook"></i>Facebook</a></button>
+                    <button><a href=""><i class="bi bi-instagram"></i>Instagram</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
