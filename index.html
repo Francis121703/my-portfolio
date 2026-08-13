@@ -17,13 +17,13 @@
 
             <!-- Main navigation -->
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills &#9662;</a></li> 
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li> 
+                <li><a href="#featured-projects">Projects</a></li>
+                <li><a href="#lets-connect">Contact</a></li>
                 
                 <button>
-                <a download="" href="#">Download CV</a>
+                    <a download="" href="#">Download CV</a>
                 </button>
             </ul>
         </nav>
@@ -34,7 +34,7 @@
         <!-- Profile Section -->
         <section id="profile">
             <div class="left-details">
-                <p>Hi, I'm</p>
+                <p class="sub-1">Hi, I'm</p>
                 <h1>Francis Maranan</h1>
                 <div class="wrapper">
                     <div class="static-text">I'm a</div>
@@ -43,7 +43,7 @@
                         <li><span>UI/UX Designer</span></li>
                     </ul>
                 </div>
-                <p aboutme-details>
+                <p class="aboutme-details">
                     I build responsive and user-focused digital experiences while developing my skills toward full-stack development.
                 </p>
 
@@ -56,13 +56,13 @@
             <div class="right-image">
                 <img src="/assets/images/first-page-images/Professional profile.png" alt="profile picture">
             </div>
-        </section>
+        </section><hr>
 
 
         <!-- about section -->
         <section id="about">
             <div class="aboutme-left">
-                <p>About Me</p>
+                <p class="sub-heading">About Me</p>
                 <h1>Curious. Driven. Creative.</h1>
                 <p class="aboutme-details">
                     I became interested in development because I'm curious about how things works, how they're built, and how technology can be used to create new things, I enjoy turning ideas into real, useful solutions that make an impact.
@@ -73,85 +73,94 @@
                 </p>
             </div>
 
-            <img src="assets/images/first-page-images/aboutme-image.png" alt="">
-        </section>
+            <img src="assets/images/first-page-images/testing-about-image.png" alt="">
+        </section><hr>
+
         <!-- skills -->
         <section id="skills">
-            <div class="skills-card">>
-                <h1><i class="bi bi-code-square"></i>Front-End</h1>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Responsive Design</li>
-                </ul>
-            </div>
+            <h1>Skills</h1>
+            <div class="skills-container">
+                <div class="skills-card">
+                    <h2><i class="bi bi-code-square"></i>Front-End</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
 
 
-            <div class="skills-card">
-                <h1><i class="bi bi-palette"></i>Design</h1>
-                <ul>
-                    <li>UI/UX Design</li>
-                    <li>Layout Design</li>
-                    <li>User-focused interfaces</li>
-                </ul>
-            </div>
+                <div class="skills-card">
+                    <h2><i class="bi bi-palette"></i>Design</h2>
+                    <ul>
+                        <li>UI/UX Design</li>
+                        <li>Layout Design</li>
+                        <li>User-focused interfaces</li>
+                    </ul>
+                </div>
 
-            <div class="skills-card">
-                <h1><i class="bi bi-wrench-adjustable"></i>Tools</h1>
-                <ul>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                </ul>
-            </div>
+                <div class="skills-card">
+                    <h2><i class="bi bi-wrench-adjustable"></i>Tools</h2>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
 
-            <div class="skills-card">
-                <h1><i class="bi bi-book-half"></i>Currently Learning</h1>
-                <ul>
-                    <li>JavaScript</li>
-                </ul>
+                <div class="skills-card">
+                    <h2><i class="bi bi-book-half"></i>Currently Learning</h2>
+                    <ul>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
             </div>
-        </section>
+        </section><hr>
         
         <!-- featured section -->
         <section id="featured-projects">
+
+            <h1>Featured Projects</h1>
             <!-- tech world magazine -->
-            <div class="feature-container">
-                <img src="assets/images/first-page-images/featured-image-1.png" alt="TechWorldMagazine">
-                <div class="project-details">
-                    <h1>Tech World Magazine</h1>
-                    <p>A modern technology magazine website designed to present tech news, articles, and digital content through a clean and user-friendly interface.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                </div>
-            </div>
 
-            <!-- gaming profile -->
-            <div class="feature-container">
-                <img src="assets/images/first-page-images/featured-image-2.png" alt="Gaming Profile">
-                <div class="project-details">
-                    <h1>Gaming Profile</h1>
-                    <p>A gaming-focused profile website designed to showcase a player's identity and interest through a visually engaging interface.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>UI/UX</li>
-                    </ul>
+            <div class="feature-details">
+                <div class="feature-container">
+                    <img src="assets/images/first-page-images/featured-image-1.png" alt="TechWorldMagazine">
+                    <div class="project-details">
+                        <h2>Tech World Magazine</h2>
+                        <p>A modern technology magazine website designed to present tech news, articles, and digital content through a clean and user-friendly interface.</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <!-- KULTR business website -->
-            <div class="feature-container">
-                <img src="assets/images/first-page-images/featured-image-3.png" alt="KULTR">
-                <div class="project-details">
-                    <h1>Bussiness Website</h1>
-                    <p>A web platform showcases local culture and traditions.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>UI/UX</li>
-                    </ul>
+                <!-- gaming profile -->
+                <div class="feature-container">
+                    <img src="assets/images/first-page-images/featured-image-2.png" alt="Gaming Profile">
+                    <div class="project-details">
+                        <h2>Gaming Profile</h2>
+                        <p>A gaming-focused profile website designed to showcase a player's identity and interest through a visually engaging interface.</p>
+                        <ul class="gaming">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>UI/UX</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- KULTR business website -->
+                <div class="feature-container">
+                    <img src="assets/images/first-page-images/featured-image-3.png" alt="KULTR">
+                    <div class="project-details">
+                        <h2>Bussiness Website</h2>
+                        <p>A web platform showcases local culture and traditions.</p>
+                        <ul class="business">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>UI/UX</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
