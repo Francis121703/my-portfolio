@@ -309,10 +309,12 @@ nav button:hover{
 }
 
 /* feauture projects */
-
+#featured-projects{
+    padding: 3rem 2rem;
+}
 #featured-projects h1{
     font-size: 2rem;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     text-transform: uppercase;
     color: var(--accent-color);
@@ -367,6 +369,135 @@ nav button:hover{
 .feature-details .business{
     padding-top: 2.75rem;
 }
+
+/* learning journey */
+#learning-journey h1{
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(2.125rem, 1.5vw, 1.25rem);
+    color: var(--accent-color);
+}
+.learning-container{
+    padding: 2.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.tech-container i{
+    font-size: 2rem;
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--sub-color);
+    color: #F7F7F5;
+}
+
+.tech-container p{
+    padding-top: 32px;
+}
+
+/* contact */
+#lets-connect{
+    padding: 2rem 4rem;
+    display: flex;
+    gap: 25rem;
+
+    h1{
+        color: var(--accent-color);
+        text-transform: uppercase;
+    }
+
+    p{
+        width: 450px;
+        line-height: 1.6;
+    }
+}
+
+.social-media{
+    display: flex;
+    gap: 2rem;
+}
+
+.social-media button{
+    height: 42px;
+    width: 130px;
+    border-radius: 8px;
+    border: 1px solid var(--sub-color);
+}
+
+.social-media a{
+    color: var(--text-color);
+    font-size: 1rem;
+    background-color: var(--bg-color);
+
+    i{
+        padding-right: 8px;
+    }
+}
+
+.instagram-icon{
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #FCAF45, #F56040, #FECBC4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block; 
+}
+
+.facebook-icon{
+    color: #1877F2;
+}
+
+.email-icon{
+    color: #1877F2;
+}
+
+.facebook:hover{
+    background-color: #1877F2;
+
+    .facebook-icon{
+        color: #F7F7F5;
+        background-color: #1877F2;
+    }
+
+    a{
+        color: #F7F7F5;
+        background-color: #1877F2;
+    }
+}
+
+.instagram:hover{
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #FCAF45, #F56040, #FECBC4);
+
+    .instagram-icon{
+        color: #F7F7F5;
+        /* background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #FCAF45, #F56040, #FECBC4); */
+    }
+
+    a{
+        color: #F7F7F5;
+        background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #FCAF45, #F56040, #FECBC4);
+    }
+}
+
+.github:hover{
+    color: #F7F7F5;
+    background-color: var(--text-color);
+
+    a{
+        color: var(--bg-color);
+        background-color: var(--text-color);
+    }
+    i{
+        color: var(--bg-color);
+        background-color: var(--text-color);
+    }
+}
+
+
+
 
 
 
