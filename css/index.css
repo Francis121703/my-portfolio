@@ -264,7 +264,7 @@ nav button:hover{
 #skills{
     justify-content: center;
     align-items: center;  
-    padding: clamp(5rem, 8vh, 7rem);
+    padding: clamp(3rem, 4vh, 7rem);
 
     h1{
         text-align: center;
